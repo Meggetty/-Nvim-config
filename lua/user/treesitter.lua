@@ -5,10 +5,10 @@ end
 
 configs.setup({
   ensure_installed = { "bash", "c", "javascript", "json", "lua", "python", "typescript", "tsx", "css", "rust", "java", "yaml", "markdown", "markdown_inline" }, -- one of "all" or a list of languages
-	ignore_install = { "phpdoc" }, -- List of parsers to ignore installing
+	ignore_install = { "phpdoc" },
 	highlight = {
-		enable = true, -- false will disable the whole extension
-		disable = { "css" }, -- list of language that will be disabled
+		enable = true, 
+		disable = { "css" },
 	},
 	autopairs = {
 		enable = true,
